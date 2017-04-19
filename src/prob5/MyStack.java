@@ -2,7 +2,7 @@ package prob5;
 
 public class MyStack<T> {
 	int top;
-	public String[] buffer;
+	String[] buffer;
 	MyStack(){}
 	
 	MyStack(int value){
