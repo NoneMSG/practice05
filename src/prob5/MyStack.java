@@ -12,7 +12,7 @@ public class MyStack<T> {
 	
 	public void push(String string) {
 		
-		if(top==buffer.length){
+		if(top>=buffer.length-1){
 			resize(); 
 		}else{
 			this.buffer[top++] = string;
