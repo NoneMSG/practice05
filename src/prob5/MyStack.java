@@ -4,12 +4,6 @@ public class MyStack<T> {
 	private int top;
 	private String[] buffer;
 
-	MyStack(){
-		this.top=0;
-		this.buffer = new String[10];
-		
-	}
-	
 	MyStack(int value){
 		this.top=0;
 		this.buffer = new String[value];
